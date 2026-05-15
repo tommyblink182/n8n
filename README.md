@@ -95,9 +95,3 @@ docker rmi <IMAGE_ID>
 Note di sicurezza e comportamento
 - Non eseguire comandi distruttivi senza conferma (es. rimozione volumi o immagini).
 - Modifiche ai manifest: preferire `kubectl apply` e patch idempotenti; mostrare sempre un diff minimo prima di applicare modifiche importanti.
-
-Contatti e passi successivi
-- Ho basato questa guida su `Cmd.txt` presente in questa cartella. Se vuoi, posso:
-  1) generare un PR con miglioramenti ai manifest (readiness/liveness, resources),
-  2) eseguire i comandi per te (richiede conferma), oppure
-  3) aggiornare il README con istruzioni più dettagliate per il tuo ambiente.
